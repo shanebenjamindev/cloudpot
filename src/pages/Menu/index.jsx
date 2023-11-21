@@ -87,9 +87,7 @@ export default function Menu() {
 
       <div id='section__Combo'>
         <h3 className='section__Title'>Combos</h3>
-
-
-        <div className='combo-list w-75 m-auto'>
+        <div className='combo-list'>
           <div >
             <img className='combo-item' src={comboyouthful} />
           </div>
