@@ -1,60 +1,45 @@
 // src/components/ALC.jsx
-import { useState, useEffect } from 'react';
-import * as XLSX from 'xlsx';
-import './ALC.css'
+import menuJson from '../../../../public/images/cloudpot-menu/menuJson.json';
 
 const ALC = () => {
-    const [excelData, setExcelData] = useState(null);
-
-    useEffect(() => {
-        loadDefaultFile();
-    }, []);
-
-    const loadDefaultFile = () => {
-        const defaultFile = '/images/cloudpot-menu/menu.xlsx';
-
-        fetch(defaultFile)
-            .then((response) => response.arrayBuffer())
-            .then((data) => {
-                const workbook = XLSX.read(new Uint8Array(data), { type: 'array' });
-                const sheetData = XLSX.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[0]]);
-                setExcelData(sheetData);
-            })
-            .catch((error) => {
-                console.error('Error loading default file:', error);
-            });
-    };
+    const data = menuJson; // Adjust based on your actual JSON structure
 
     return (
         <div className="container mt-5">
-            {excelData && (
-                <div className="table-responsive">
-                    <table className="table table-bordered table-striped">
-                        <thead className="thead-dark">
-                            <tr>
-                                <th>Tên món</th>
-                                <th>Giá bán HCM</th>
-                                <th>Thời gian chín</th>
-                                <th>Nước chấm</th>
-                                <th>Rau ăn kèm</th>
-                                <th>ĐL tổng gram</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {excelData.map((row, index) => (
-                                <tr key={index}>
-                                    <td>{row['Tên món']}</td>
-                                    <td>{row['Giá bán HCM']}</td>
-                                    <td>{row['Thời gian chín']}</td>
-                                    <td>{row['Nước chấm']}</td>
-                                    <td>{row['Rau ăn kèm']}</td>
-                                    <td>{row['ĐL tổng gram']}</td>
+            <h3 className='section__Title'>Menu ALC</h3>
+            {data.map((group, groupIndex) => (
+                <div key={groupIndex}>
+                    <h2>{Object.keys(group)[0]}</h2> {/* Extract the group name */}
+                    <div className="table-responsive">
+                        <table className="table table-bordered table-striped">
+                            <thead className="thead text-white bg-success">
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Tên món</th>
+                                    <th>Thời gian chín</th>
+                                    <th>ĐL tổng (gram)</th>
+                                    <th>Nước chấm</th>
+                                    <th>Rau ăn kèm</th>
+                                    <th>Giá bán (HCM)</th>
                                 </tr>
-                            ))}
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody>
+                                {group[Object.keys(group)[0]].map((item, itemIndex) => (
+                                    <tr key={itemIndex}>
+                                        <td>{item.STT}</td>
+                                        <td>{item.Tênmón}</td>
+                                        <td>{item.Thờigianchín}</td>
+                                        <td>{item.ĐLtổnggram} gram</td>
+                                        <td>{item.Nướcchấm !== null ? (<div className='text-success'> {item.Nướcchấm}</div>) : (<div className='text-danger'>none</div>)}</td>
+                                        <td>{item.Rauănkèm !== null ? (<div className='text-success'> {item.Rauănkèm}</div>) : (<div className='text-danger'>none</div>)}</td>
+                                        <td>{item.GiábánHCM} gram</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            )}
+            ))}
         </div>
     );
 };
