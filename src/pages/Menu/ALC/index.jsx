@@ -7,13 +7,11 @@ const ALC = () => {
     const [excelData, setExcelData] = useState(null);
 
     useEffect(() => {
-        // Trigger file input programmatically
         loadDefaultFile();
     }, []);
 
     const loadDefaultFile = () => {
-        // Replace 'your-default-file.xlsx' with the path or URL of your default Excel file
-        const defaultFile = '../../../../public/images/cloudpot-menu/menu.xlsx';
+        const defaultFile = '/images/cloudpot-menu/menu.xlsx';
 
         fetch(defaultFile)
             .then((response) => response.arrayBuffer())
