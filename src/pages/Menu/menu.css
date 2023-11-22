@@ -89,7 +89,52 @@
   background-color: var(--primary-color);
 }
 
-.combothanhtao{
+.combothanhtao {
   right: 10px;
   top: 10px;
+}
+
+.naviMenu {
+  text-align: center;
+  position: fixed;
+  right: 5px;
+  top: 40%;
+  color: white;
+  border-radius: 5px;
+  z-index: 9999;
+  background-color: var(--primary-color);
+  transform: translateX(4.9rem);
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.naviMenu:hover {
+  transform: translateX(0);
+}
+
+.naviMenu li {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.naviMenu a:hover li {
+  background-color: var(--secondary-color);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  opacity: 30%;
+  transition: all 0.2s ease;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.back-to-top:hover {
+  background-color: var(--secondary-color);
+  opacity: 1;
 }

@@ -1,15 +1,13 @@
-// src/components/ALC.jsx
 import menuJson from '../../../../public/images/cloudpot-menu/menuJson.json';
 
 const ALC = () => {
-    const data = menuJson; // Adjust based on your actual JSON structure
-
+    const data = menuJson;
     return (
-        <div className="container mt-5">
+        <section id='section__ALC' className="container mt-5">
             <h3 className='section__Title'>Menu ALC</h3>
             {data.map((group, groupIndex) => (
                 <div key={groupIndex}>
-                    <h2>{Object.keys(group)[0]}</h2> {/* Extract the group name */}
+                    <h4>{Object.keys(group)[0]}</h4>
                     <div className="table-responsive">
                         <table className="table table-bordered table-striped">
                             <thead className="thead text-white bg-success">
@@ -40,7 +38,7 @@ const ALC = () => {
                     </div>
                 </div>
             ))}
-        </div>
+        </section>
     );
 };
 

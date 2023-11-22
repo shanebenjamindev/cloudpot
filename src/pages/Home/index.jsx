@@ -3,7 +3,7 @@ import './home.css'
 
 export default function Home() {
   return (
-    <div className="w-50">
+    <section className="section__Home w-50">
       <ul>
         <Link to="/menu-page" className="nav-link home-link">
           <li className="">
@@ -17,6 +17,6 @@ export default function Home() {
           </li>
         </Link>
       </ul>
-    </div>
+    </section>
   )
 }

@@ -20,6 +20,9 @@ export default function Header() {
             <div className="collapse navbar-collapse " id="navbarNav">
                 <ul className="navbar-nav ml-auto text-right">
                     <li className="nav-item">
+                        <Link to="/" className="nav-link">Video</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link to="/" className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item">

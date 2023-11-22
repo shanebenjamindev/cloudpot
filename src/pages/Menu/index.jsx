@@ -1,10 +1,18 @@
 import ALC from './ALC';
 import Combos from './Combo';
+import Drink from './Drink';
 import './menu.css';
+import menutime from '../../../public/images/cloudpot-menu/menu_files/image386.png'
+import { useEffect, useState } from 'react';
+import { animateScroll as scroll } from 'react-scroll';
+
+
 
 export default function Menu() {
   return (
     <div className=''>
+      <img className='container-fluid' src={menutime} />
+      {naviMenu()}
       <div className='menu-container d-md-flex  text-right'>
         <div className='col-md-2 text-center'>
           <img className='cloudpot-logo' src="https://imagedelivery.net/1J0pLjFdKJBzEdIlr1bDRQ/35c89544-caf4-4573-0408-fac18280d400/public" />
@@ -85,6 +93,63 @@ export default function Menu() {
 
       <Combos />
       <ALC />
+      <Drink />
+      {BackToTopButton()}
     </div>
   )
 }
+
+function naviMenu() {
+  return (
+    <ol className='naviMenu'>
+      <a href='#section__Combo' className='nav-link'>
+        <li>
+          Combo
+        </li>
+      </a>
+      <a href='#section__ALC' className='nav-link'>
+        <li>
+          ALC
+        </li>
+      </a>
+      <a href='#section__Drink' className='nav-link'>
+        <li>
+          Drink
+        </li>
+      </a>
+    </ol>
+  )
+}
+
+
+const BackToTopButton = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsVisible(window.scrollY > 100); // Adjust the scroll position as needed
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    scroll.scrollToTop({
+      duration: 500,
+      smooth: 'easeInOutQuart',
+    });
+  };
+
+  return (
+    <div
+      className={`back-to-top ${isVisible ? 'visible' : 'hidden'}`}
+      onClick={scrollToTop}
+    >
+      ↑ Back to Top
+    </div>
+  );
+};

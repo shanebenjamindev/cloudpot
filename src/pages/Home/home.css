@@ -15,3 +15,7 @@
 .home-link:hover {
   box-shadow: rgb(126, 126, 126) 0px 10px 29px 0px;
 }
+
+.section__Home {
+  height: 100dvh;
+}

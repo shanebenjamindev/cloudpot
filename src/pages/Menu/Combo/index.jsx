@@ -1,7 +1,7 @@
-import combofresh from '../../../../public/images/cloudpot-menu/combo-fresh.jpg';
-import comboenergy from '../../../../public/images/cloudpot-menu/combo-energy.jpg';
-import combowandering from '../../../../public/images/cloudpot-menu/combo-wandering.jpg';
-import comboyouthful from '../../../../public/images/cloudpot-menu/combo-youthful.jpg';
+import combofresh from '/images/cloudpot-menu/combo-fresh.jpg';
+import comboenergy from '/images/cloudpot-menu/combo-energy.jpg';
+import combowandering from '/images/cloudpot-menu/combo-wandering.jpg';
+import comboyouthful from '/images/cloudpot-menu/combo-youthful.jpg';
 
 export default function Combos() {
     return (
