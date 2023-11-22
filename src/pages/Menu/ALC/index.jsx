@@ -32,7 +32,7 @@ const ALC = () => {
                                         <td>{item.ĐLtổnggram} gram</td>
                                         <td>{item.Nướcchấm !== null ? (<div className='text-success'> {item.Nướcchấm}</div>) : (<div className='text-danger'>none</div>)}</td>
                                         <td>{item.Rauănkèm !== null ? (<div className='text-success'> {item.Rauănkèm}</div>) : (<div className='text-danger'>none</div>)}</td>
-                                        <td>{item.GiábánHCM} gram</td>
+                                        <td>{item.GiábánHCM} VND</td>
                                     </tr>
                                 ))}
                             </tbody>
