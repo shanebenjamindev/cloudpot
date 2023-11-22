@@ -5,6 +5,10 @@
   position: fixed;
   z-index: 999;
 }
-.navbar-toggler{
-    border: 1px solid white;
+
+nav a {
+  color: inherit !important;
+}
+.navbar-toggler {
+  border: 1px solid white;
 }

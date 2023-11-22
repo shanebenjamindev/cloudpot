@@ -1,7 +1,5 @@
-import combofresh from '../../../public/images/cloudpot-menu/combo-fresh.jpg';
-import comboenergy from '../../../public/images/cloudpot-menu/combo-energy.jpg';
-import combowandering from '../../../public/images/cloudpot-menu/combo-wandering.jpg';
-import comboyouthful from '../../../public/images/cloudpot-menu/combo-youthful.jpg';
+import ALC from './ALC';
+import Combos from './Combo';
 import './menu.css';
 
 export default function Menu() {
@@ -85,27 +83,8 @@ export default function Menu() {
         </div>
       </div>
 
-      <div id='section__Combo'>
-        <h3 className='section__Title'>Combos</h3>
-        <div className='combo-list'>
-          <div >
-            <img className='combo-item' src={comboyouthful} />
-          </div>
-
-          <div >
-            <img className='combo-item' src={comboenergy} />
-          </div>
-
-          <div >
-            <img className='combo-item' src={combowandering} />
-          </div>
-
-          <div className='position-relative'>
-            <p className='bg-dark m-2 text-white p-2 position-absolute'> combo <span className='section__Title'>thanh tao</span> không có hải sản</p>
-            <img className='combo-item' src={combofresh} />
-          </div>
-        </div>
-      </div>
+      <Combos />
+      <ALC />
     </div>
   )
 }

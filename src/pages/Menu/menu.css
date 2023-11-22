@@ -59,14 +59,16 @@
 }
 
 .combo-list {
+  padding: 10px;
+  border-radius: 14px;
   display: flex;
   overflow-x: scroll;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  box-shadow: inset rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  box-shadow: inset var(--secondary-color) 0px 0px 100px 200px;
 }
 
 .combo-item {
-  max-width: 900px;
+  max-width: 700px;
   border-radius: 14px;
   padding: 10px;
   z-index: 2;
@@ -74,7 +76,7 @@
 
 .combo-list::-webkit-scrollbar {
   width: 1em;
-  height: 5px;
+  height: 10px;
 }
 
 .combo-list::-webkit-scrollbar-track {
@@ -84,5 +86,10 @@
 
 .combo-list::-webkit-scrollbar-thumb {
   border-radius: 14px;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.combothanhtao{
+  right: 10px;
+  top: 10px;
 }

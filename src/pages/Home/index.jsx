@@ -1,16 +1,21 @@
 import { Link } from "react-router-dom";
+import './home.css'
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-50">
       <ul>
-        <li className="nav-link">
-          <Link to="/menu-page">menu cloudpot</Link>
-        </li>
+        <Link to="/menu-page" className="nav-link home-link">
+          <li className="">
+            menu cloudpot
+          </li>
+        </Link>
 
-        <li className="nav-link">
-          <Link to="/services-page">5 bước phục vụ</Link>
-        </li>
+        <Link to="/services-page" className="nav-link home-link">
+          <li >
+            5 bước phục vụ
+          </li>
+        </Link>
       </ul>
     </div>
   )

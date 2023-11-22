@@ -46,5 +46,6 @@ Link,
 li,
 a {
   text-decoration: none;
-  color: inherit !important;
+  list-style: none;
+  color: inherit;
 }
