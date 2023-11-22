@@ -49,3 +49,10 @@ a {
   list-style: none;
   color: inherit !important;
 }
+
+section {
+  background-color: aliceblue;
+  padding: 20px ;
+  border-radius: 4px;
+  margin: 30px 0;
+}

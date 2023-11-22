@@ -1,0 +1,15 @@
+.table-responsive {
+  border-radius: 14px;
+}
+.table-title {
+  width: 25%;
+  padding: 10px 10px;
+  color: white;
+  background-color: var(--secondary-color);
+  margin: 30px 0 10px 0;
+}
+
+#section__ALC {
+  background-color: aliceblue;
+  padding: 20px ;
+}

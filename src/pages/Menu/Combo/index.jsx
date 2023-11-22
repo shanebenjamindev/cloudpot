@@ -5,7 +5,7 @@ import comboyouthful from '/images/cloudpot-menu/combo-youthful.jpg';
 
 export default function Combos() {
     return (
-        <div id='section__Combo' className='container'>
+        <section id='section__Combo' className='container'>
             <h3 className='section__Title'>Combos (scroll to left)</h3>
             <div className='combo-list'>
                 <div >
@@ -25,6 +25,6 @@ export default function Combos() {
                 <img className='combo-item' src={combofresh} />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

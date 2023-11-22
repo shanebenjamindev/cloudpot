@@ -5,9 +5,7 @@ export default function HomeTemplate() {
   return (
     <div>
       <Header />
-      <div className='my-3 py-5'>
-        <PageContent />
-      </div>
+      <PageContent />
       <Footer />
     </div>
   )

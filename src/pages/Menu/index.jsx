@@ -6,18 +6,19 @@ import menutime from '../../../public/images/cloudpot-menu/menu_files/image386.p
 import { useEffect, useState } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 
-
-
 export default function Menu() {
   return (
-    <div className=''>
-      <img className='container-fluid' src={menutime} />
+    <div className='bg-menu'>
       {naviMenu()}
-      <div className='menu-container d-md-flex  text-right'>
-        <div className='col-md-2 text-center'>
+      <div className='menu-container d-md-flex flex-wrap  align-items-center  text-right'>
+        <div className='col-md-3 text-center my-2'>
           <img className='cloudpot-logo' src="https://imagedelivery.net/1J0pLjFdKJBzEdIlr1bDRQ/35c89544-caf4-4573-0408-fac18280d400/public" />
         </div>
-        <div className='col-md-5'>
+        <div className='col-md-3'>
+          <img src={menutime} />
+        </div>
+
+        <div className='col-md-3'>
           <div className="menu-item">
             <span>3 phút</span>
             <span className='text-info'> (2) </span>
@@ -54,7 +55,7 @@ export default function Menu() {
 
         </div>
 
-        <div className='col-md-5'>
+        <div className='col-md-3'>
           <div className="menu-item">
             <span>6 phút</span>
             <span className='text-info'> (4) </span>
