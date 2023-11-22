@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #96c05a;
-  --secondary-color: #588457;
+  --primary-color: #28A745;
+  --secondary-color: #2f7338;
 }
 .section__Title {
   color: var(--primary-color);
