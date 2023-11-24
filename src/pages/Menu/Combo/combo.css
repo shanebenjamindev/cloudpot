@@ -1,0 +1,22 @@
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+.image-gallery-image {
+  object-fit: fill !important;
+}
+
+.image-gallery-svg {
+  opacity: 40%;
+}
+
+.image-gallery-svg:active {
+  opacity: 100%;
+}
+.image-gallery-description {
+  right: 0;
+  top: 5px;
+  text-align: right;
+  height: 1.5rem;
+}

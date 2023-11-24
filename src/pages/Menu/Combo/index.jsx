@@ -1,30 +1,46 @@
-import combofresh from '/images/cloudpot-menu/combo-fresh.jpg';
+import Gallery from 'react-image-gallery';
+import 'react-image-gallery/styles/css/image-gallery.css'; // Import the default styles
+
+import comboyouthful from '/images/cloudpot-menu/combo-youthful.jpg';
 import comboenergy from '/images/cloudpot-menu/combo-energy.jpg';
 import combowandering from '/images/cloudpot-menu/combo-wandering.jpg';
-import comboyouthful from '/images/cloudpot-menu/combo-youthful.jpg';
+import combofresh from '/images/cloudpot-menu/combo-fresh.jpg';
 
-export default function Combos() {
+import './combo.css';
+
+const images = [
+    {
+        original: comboyouthful,
+        thumbnail: comboyouthful,
+        originalClass: 'slider-image',
+    },
+    {
+        original: comboenergy,
+        thumbnail: comboenergy,
+        originalClass: 'slider-image',
+    },
+    {
+        original: combowandering,
+        thumbnail: combowandering,
+        originalClass: 'slider-image',
+    },
+    {
+        original: combofresh,
+        thumbnail: combofresh,
+        description: 'Combo Thanh Tao (không có hải sản)',
+        originalClass: 'slider-image',
+    },
+];
+
+const Combos = () => {
     return (
         <section id='section__Combo' className='container'>
-            <h3 className='section__Title'>Combos (scroll to left)</h3>
-            <div className='combo-list'>
-                <div >
-                    <img className='combo-item' src={comboyouthful} />
-                </div>
-
-                <div >
-                    <img className='combo-item' src={comboenergy} />
-                </div>
-
-                <div >
-                    <img className='combo-item' src={combowandering} />
-                </div>
-
-                <div className='position-relative'>
-                <p className='combothanhtao bg-dark m-2 text-white p-2 position-absolute'> combo <span className='section__Title'>thanh tao</span> không có hải sản</p>
-                <img className='combo-item' src={combofresh} />
-                </div>
+            <h3 className='section__Title'>Combos</h3>
+            <div className='combo-list bg-dark'>
+                <Gallery items={images} />
             </div>
         </section>
-    )
+    );
 }
+
+export default Combos;
