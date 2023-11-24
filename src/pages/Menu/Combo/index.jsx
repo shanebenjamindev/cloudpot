@@ -36,7 +36,7 @@ const Combos = () => {
     return (
         <section id='section__Combo' className='container'>
             <h3 className='section__Title'>Combos</h3>
-            <div className='combo-list bg-dark'>
+            <div className='combo-list'>
                 <Gallery items={images} />
             </div>
         </section>
