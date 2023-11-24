@@ -37,7 +37,7 @@ const Combos = () => {
         <section id='section__Combo' className='container-fuild mx-5'>
             <h3 className='section__Title'>Combos</h3>
             <div className='combo-list'>
-                <Gallery items={images} showBullets showThumbnails thumbnailPosition="bottom"  />
+                <Gallery items={images} />
             </div>
         </section>
     );

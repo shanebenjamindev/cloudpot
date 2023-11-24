@@ -18,10 +18,8 @@ export default function Header() {
             </button>
 
             <div className="collapse navbar-collapse " id="navbarNav">
-                <ul className="navbar-nav ml-auto text-right">
-                    <li className="nav-item">
-                        <Link to="/" className="nav-link">Video</Link>
-                    </li>
+                <ul className="navbar-nav ml-auto text-center">
+
                     <li className="nav-item">
                         <Link to="/" className="nav-link">Home</Link>
                     </li>
@@ -31,7 +29,9 @@ export default function Header() {
                     <li className="nav-item">
                         <Link to="services-page" className="nav-link">Services</Link>
                     </li>
-                    
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link">Memo</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

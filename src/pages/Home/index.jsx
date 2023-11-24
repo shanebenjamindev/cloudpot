@@ -3,27 +3,42 @@ import './home.css'
 
 export default function Home() {
   return (
-    <section className="section__Home">
+    <div id="section__Home">
       <div className="container-fluid bg-home">
-        <h1 className="py-5 d-md-block d-none section__Title text-center">
-          LẨU HẤP THỦY NHIỆT
-          <h3 className="text-dark">GRAND OPENING</h3>
-          <hr className="w-25 m-auto" style={{border: "1px solid grey"}} />
-          - 20% SET MENU
-        </h1>
-        <div className="home-list-link">
-          <Link to="/menu-page" className="nav-link home-link">
-            <li className="">
-              menu cloudpot
-            </li>
-          </Link>
-          <Link to="/services-page" className="nav-link home-link">
-            <li >
-              5 bước phục vụ
-            </li>
-          </Link>
+
+        <div className="home__Content">
+          <h1 className="text-center">
+            <p>
+              CLOUDPOT
+            </p>
+            <span>
+              LẨU HẤP THỦY NHIỆT
+            </span>
+            <h3 className="text-dark">GRAND OPENING</h3>
+            <hr className="w-25 m-auto" style={{ border: "1px solid grey" }} />
+            - 20% SET MENU
+          </h1>
+          <div className="home-list-link">
+            <Link to="/menu-page" className="nav-link home-link">
+              <li className="">
+                menu cloudpot
+              </li>
+            </Link>
+            <Link to="/services-page" className="nav-link home-link">
+              <li >
+                5 bước phục vụ
+              </li>
+            </Link>
+          </div>
+          <div className="cloud">
+            <img src="/images/cloud/cloud1.png" style={{ "--i": 1 }} />
+            <img src="/images/cloud/cloud2.png" style={{ "--i": 2 }} />
+            <img src="/images/cloud/cloud3.png" style={{ "--i": 3 }} />
+            <img src="/images/cloud/cloud4.png" style={{ "--i": 4 }} />
+            <img src="/images/cloud/cloud5.png" style={{ "--i": 5 }} />
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
