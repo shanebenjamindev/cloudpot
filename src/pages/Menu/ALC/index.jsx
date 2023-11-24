@@ -5,6 +5,7 @@ const ALC = () => {
     return (
         <section id='section__ALC' className="container mt-5">
             <h3 className='section__Title'>Menu ALC</h3>
+            <hr className="w-25" style={{ border: "1px solid var(--secondary-color)" }} />
             {data.map((group, groupIndex) => (
                 <div key={groupIndex}>
                     <h4 className='table-title'>{Object.keys(group)[0]}</h4>

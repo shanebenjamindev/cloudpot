@@ -3,7 +3,12 @@ import './header.css'
 export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg text-white d-flex justify-content-between">
-            <Link className="navbar-brand" to="/"><span>CloudPot Training Site</span></Link>
+            <Link className="navbar-brand d-flex align-items-center" to="/">
+                <img src="/images/logo.png" className="px-2 mx-2 bg-white" width={"100px"} />
+                <span>Training Site
+                    <hr className="m-0" style={{ border: "1px solid white" }} />
+                </span>
+            </Link>
 
             <button
                 className="navbar-toggler "

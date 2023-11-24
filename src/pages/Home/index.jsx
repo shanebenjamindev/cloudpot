@@ -29,14 +29,19 @@ export default function Home() {
                 5 bước phục vụ
               </li>
             </Link>
+
           </div>
-          <div className="cloud">
-            <img src="/images/cloud/cloud1.png" style={{ "--i": 1 }} />
-            <img src="/images/cloud/cloud2.png" style={{ "--i": 2 }} />
-            <img src="/images/cloud/cloud3.png" style={{ "--i": 3 }} />
-            <img src="/images/cloud/cloud4.png" style={{ "--i": 4 }} />
-            <img src="/images/cloud/cloud5.png" style={{ "--i": 5 }} />
-          </div>
+        </div>
+
+        <div className="cloud">
+          <img src="/images/cloud/cloud1.png" style={{ "--i": 1 }} />
+          <img src="/images/cloud/cloud2.png" style={{ "--i": 2 }} />
+          <img src="/images/cloud/cloud3.png" style={{ "--i": 3 }} />
+          <img src="/images/cloud/cloud4.png" style={{ "--i": 4 }} />
+          <img src="/images/cloud/cloud5.png" style={{ "--i": 5 }} />
+        </div>
+        <div className="cloud2">
+          <img src="/images/cloud/cloud1.png" style={{ "--i": 1 }} />
         </div>
       </div>
     </div>

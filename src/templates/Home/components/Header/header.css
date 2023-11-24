@@ -12,3 +12,13 @@ nav a {
 .navbar-toggler {
   border: 1px solid white;
 }
+
+.navbar-brand hr {
+  width: 0;
+  opacity: 0;
+  transition: all 1s ease ;
+}
+.navbar-brand:hover hr {
+  width: 100%;
+  opacity: 1;
+}

@@ -9,7 +9,7 @@
   padding: 30px 0;
 }
 .menu-container {
-  padding: 30px;
+  padding: 5px;
   justify-content: center;
   border-radius: 14px;
   margin: 30px;
@@ -146,4 +146,23 @@
   display: grid;
   justify-content: center;
   align-items: center;
+}
+
+
+/* Add this to your existing CSS */
+.open-dropdown {
+  display: block;
+}
+
+.dropdown-button {
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  background-color: var(--secondary-color);
 }

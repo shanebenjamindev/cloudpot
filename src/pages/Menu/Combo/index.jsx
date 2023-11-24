@@ -34,8 +34,10 @@ const images = [
 
 const Combos = () => {
     return (
-        <section id='section__Combo' className='container-fuild mx-5'>
+        <section id='section__Combo' className='mx-md-5'>
             <h3 className='section__Title'>Combos</h3>
+            <hr className="w-25" style={{ border: "1px solid var(--secondary-color)" }} />
+
             <div className='combo-list'>
                 <Gallery items={images} />
             </div>
