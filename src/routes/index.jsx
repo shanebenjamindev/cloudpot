@@ -18,6 +18,10 @@ const routes = [
                 path: "services-page",
                 element: lazy(() => import("../pages/Serv"))
             },
+            {
+                path: "memo-page",
+                element: lazy(() => import("../pages/Memo"))
+            },
 
         ]
     },
