@@ -2,6 +2,13 @@
   width: 100%;
   height: auto;
 }
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
 
 .image-gallery-image {
   object-fit: fill !important;
