@@ -7,6 +7,21 @@ import { useEffect, useState } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 
 export default function Menu() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const images = [
+    menutime
+  ]
+  const openModal = (image) => {
+    setSelectedImage(image);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+    setSelectedImage('');
+  };
   return (
     <div className='bg-menu'>
       {naviMenu()}
@@ -14,9 +29,24 @@ export default function Menu() {
         <div className='col-md-3 text-center my-2'>
           <img className='cloudpot-logo' src="https://imagedelivery.net/1J0pLjFdKJBzEdIlr1bDRQ/35c89544-caf4-4573-0408-fac18280d400/public" />
         </div>
-        <div className='col-md-3'>
-          <img src={menutime} />
-        </div>
+        {images.map((image, index) => (
+          <div key={index} className='col-md-3'>
+            <img
+              src={image}
+              alt={`Gallery Image ${index + 1}`}
+              onClick={() => openModal(image)}
+              style={{ cursor: 'pointer' }}
+            />
+          </div>
+        ))}
+
+        {modalOpen && (
+          <div className="modal-overlay" onClick={closeModal}>
+            <div className="modal">
+              <img src={selectedImage} alt="Modal Image" />
+            </div>
+          </div>
+        )}
 
         <div className='col-md-3'>
           <div className="menu-item">
