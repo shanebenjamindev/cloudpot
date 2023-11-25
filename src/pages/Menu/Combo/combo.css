@@ -7,6 +7,7 @@
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease;
 }
 
 
