@@ -1,0 +1,12 @@
+.memo__PDF {
+  height: 90vh;
+  overflow: scroll;
+}
+
+.memo__PDF {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.memo__PDF::-webkit-scrollbar {
+  display: none;
+}

@@ -34,7 +34,7 @@ const images = [
 
 const Combos = () => {
     return (
-        <section id='section__Combo' className='mx-md-5'>
+        <section id='section__Combo' className='mx-md-5' data-aos="fade-up">
             <h3 className='section__Title'>Combos</h3>
             <hr className="w-25" style={{ border: "1px solid var(--secondary-color)" }} />
 
