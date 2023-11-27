@@ -26,11 +26,11 @@ export default function Menu() {
     <div className='bg-menu'>
       {naviMenu()}
       <div className='menu-container d-md-flex flex-wrap align-items-center container'>
-        <div className='col-md-6 text-center my-2' data-aos="fade-right">
+        <div className='col-md-6 text-center my-2'>
           <img className='cloudpot-logo' src="https://imagedelivery.net/1J0pLjFdKJBzEdIlr1bDRQ/35c89544-caf4-4573-0408-fac18280d400/public" />
         </div>
         {images.map((image, index) => (
-          <div key={index} className='col-md-6' data-aos="fade-left">
+          <div key={index} className='col-md-6'>
             <img
               src={image}
               alt={`Gallery Image ${index + 1}`}

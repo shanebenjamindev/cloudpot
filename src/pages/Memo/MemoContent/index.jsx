@@ -14,7 +14,7 @@ const MemoContent = () => {
             <MemoItem
                 title="NỘI DUNG 2: CHECK-IN MIỄN PHÍ SỬ DỤNG QUẦY BUFFET LINE"
                 time="Từ 29/11/2023 đến 29/02/2024."
-                discount="Miễn phí sử dụng quầy buffet cho khách hàng check-in."
+                discount="Miễn phí sử dụng quầy buffet cho khách hàng check-in. (check-in theo số khách trên bàn"
                 conditions="Check-in, không áp dụng cùng các chương trình khác, không mang về."
             />
             <hr className="" style={{ border: "1px solid var(--secondary-color)" }} />
@@ -30,7 +30,7 @@ const MemoContent = () => {
             <MemoItem
                 title="NỘI DUNG 4: TẶNG 01 PHẦN TÔM BỒNG LAI CHO NHÓM 03 KHÁCH NGƯỜI LỚN"
                 time="Từ 29/11/2023 đến 29/02/2024."
-                discount=" Tặng Tôm Bồng Lai miễn phí cho nhóm từ 3 người trở lên"
+                discount=" Tặng Tôm Bồng Lai miễn phí cho nhóm từ 3 người trở lên (lũy tiến)"
                 conditions="Nhóm từ 3 người trở lên, ăn tại nhà hàng, không áp dụng cùng các chương trình khác, không mang về."
             />
             <hr className="" style={{ border: "1px solid var(--secondary-color)" }} />

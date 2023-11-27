@@ -29,6 +29,11 @@ export default function Home() {
                 5 bước phục vụ
               </li>
             </Link>
+            <Link to="/memo-page" className="nav-link home-link">
+              <li >
+                Memo
+              </li>
+            </Link>
 
           </div>
         </div>
