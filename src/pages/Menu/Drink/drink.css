@@ -6,9 +6,12 @@
   transition: all 0.5s ease;
 }
 
+.drink-item img:hover img {
+  z-index: 1000;
+}
+
 .drink-item img:hover {
   transform: scale(1.5);
-  z-index: 999;
 }
 
 .drink-item {

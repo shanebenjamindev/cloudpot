@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className="footer">
-            <div className="p-2 bg-success text-white ">
+            <div className="bg-success text-white"  style = {{padding: "30px"}}>
                 <div className="d-md-flex">
                     <div className="col-md-4 info-box">
                         <h4>HÀ NỘI</h4>
