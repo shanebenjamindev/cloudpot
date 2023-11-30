@@ -1,6 +1,5 @@
 .slider-image {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
 }
 .image-gallery {
   display: grid;
@@ -9,7 +8,6 @@
   align-items: center;
   transition: all 0.5s ease;
 }
-
 
 .image-gallery-image {
   object-fit: fill !important;

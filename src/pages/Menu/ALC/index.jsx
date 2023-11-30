@@ -1,12 +1,37 @@
+import { useState } from 'react';
 import menuJson from '../../../../public/images/cloudpot-menu/menuJson.json';
 import './ALC.css'
+
+
 const ALC = () => {
     const data = menuJson;
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const filteredData = data.map((group, groupIndex) => {
+        const filteredGroup = {
+            [Object.keys(group)[0]]: group[Object.keys(group)[0]].filter((item) =>
+                item.Tênmón.toLowerCase().includes(searchTerm.toLowerCase())
+            ),
+        };
+        return filteredGroup;
+    });
+
     return (
         <section id='section__ALC' className="container mt-5">
-            <h3 className='section__Title'>Menu ALC</h3>
+            <div className='d-md-flex  justify-content-between'>
+                <h3 className='section__Title col-md-7'>Menu ALC</h3>
+                <input
+                    type="text"
+                    className='form-control col-md-5'
+                    placeholder="Search..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                />
+            </div>
             <hr className="w-25" style={{ border: "1px solid var(--secondary-color)" }} />
-            {data.map((group, groupIndex) => (
+
+
+            {filteredData.map((group, groupIndex) => (
                 <div key={groupIndex}>
                     <h4 className='table-title'>{Object.keys(group)[0]}</h4>
                     <div className="table-responsive bg-white">
