@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 import './header.css'
+import useLocalStorageUser from "../../../../assets/hooks";
+
 export default function Header() {
+    const { user, clearUser } = useLocalStorageUser()
+
+    const handleLogout = () => {
+        clearUser()
+    }
+
     return (
         <nav className="navbar navbar-expand-lg text-white d-flex justify-content-between">
             <Link className="navbar-brand d-flex align-items-center" to="/">
@@ -37,6 +45,17 @@ export default function Header() {
                     <li className="nav-item">
                         <Link to="/memo-page" className="nav-link">Memo</Link>
                     </li>
+                    {(user) ? <>
+                        <li className="nav-item">
+                            <Link to="/tables-page" className="nav-link">Danh sách bàn</Link>
+                        </li>
+                        <li className="nav-item">
+                            <button onClick={handleLogout} className="nav-link"><button className="">Logout</button></button>
+                        </li>
+                    </> : <li className="nav-item">
+                        <Link to="/login-page" className="nav-link"><button className="">Login</button></Link>
+                    </li>
+                    }
                 </ul>
             </div>
         </nav>

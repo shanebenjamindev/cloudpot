@@ -1,48 +1,36 @@
-import Gallery from 'react-image-gallery';
-import 'react-image-gallery/styles/css/image-gallery.css'; // Import the default styles
-
-import comboyouthful from '/images/cloudpot-menu/combo-youthful.jpg';
-import comboenergy from '/images/cloudpot-menu/combo-energy.jpg';
-import combowandering from '/images/cloudpot-menu/combo-wandering.jpg';
-import combofresh from '/images/cloudpot-menu/combo-fresh.jpg';
-
+import React from 'react';
 import './combo.css';
-
-const images = [
-    {
-        original: comboyouthful,
-        thumbnail: comboyouthful,
-        originalClass: 'slider-image',
-    },
-    {
-        original: comboenergy,
-        thumbnail: comboenergy,
-        originalClass: 'slider-image',
-    },
-    {
-        original: combowandering,
-        thumbnail: combowandering,
-        originalClass: 'slider-image',
-    },
-    {
-        original: combofresh,
-        thumbnail: combofresh,
-        description: 'Combo Thanh Tao (không có hải sản)',
-        originalClass: 'slider-image',
-    },
-];
-
-const Combos = () => {
+import { Link } from "react-router-dom";
+export default function Combo() {
     return (
-        <section id='section__Combo' className='mx-md-5' data-aos="fade-up">
-            <h3 className='section__Title'>Combos</h3>
-            <hr className="w-25" style={{ border: "1px solid var(--secondary-color)" }} />
-
-            <div className='combo-list'>
-                <Gallery items={images} />
-            </div>
-        </section>
-    );
+        <div className='section__Combo container bg-white my-5 p-2 border rounded'>
+            <h1 className='section__Title'>Set Combos</h1>
+            <ul>
+                <li>
+                    <Link to="">
+                        Thanh Xuân 1.299k - 12 món
+                    </Link>
+                </li>
+                <li>
+                    <Link to="">
+                        Tươi Mới 1.199k - 13 món
+                    </Link></li>
+                <li>
+                    <Link to="">
+                        Bổ Dưỡng 1.390k - 13 món
+                    </Link>
+                </li>
+                <li>
+                    <Link to="">
+                        Tâm Giao 599k - 12 món
+                    </Link>
+                </li>
+                <li>
+                    <Link to="">
+                        Thành Ý 899k - 15 món
+                    </Link>
+                </li>
+            </ul>
+        </div>
+    )
 }
-
-export default Combos;

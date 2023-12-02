@@ -1,5 +1,4 @@
 import ALC from './ALC';
-import Combos from './Combo';
 import Drink from './Drink';
 import './menu.css';
 import menutime from '../../../public/images/cloudpot-menu/menu_files/image386.png'
@@ -49,7 +48,6 @@ export default function Menu() {
         )}
       </div>
 
-      <Combos />
       <Drink />
       <ALC />
       {BackToTopButton()}

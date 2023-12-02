@@ -1,0 +1,18 @@
+.table-content {
+  padding: 0 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  color: var(--secondary-color);
+}
+
+.section__Tables {
+  margin: 5% auto auto auto;
+}
+
+.authCheck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}

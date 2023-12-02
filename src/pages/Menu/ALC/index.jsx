@@ -16,27 +16,31 @@ const ALC = () => {
     return result;
   }, {});
 
-  // Filter and display grouped data
   const filteredData = Object.keys(groupedData).map((groupName, groupIndex) => {
-    return {
-      groupName,
-      items: groupedData[groupName].filter((item) =>
-        item['Tên món'].toLowerCase().includes(searchTerm.toLowerCase())
-      ),
-    };
-  });
+    const filteredItems = groupedData[groupName].filter((item) =>
+      item['Tên món'].toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
-  // Calculate number of tables in each column
+    // Only include the group if there are matching items
+    if (filteredItems.length > 0) {
+      return {
+        groupName,
+        items: filteredItems,
+      };
+    }
+
+    return null;
+  }).filter(Boolean);
   const tablesPerColumn = Math.ceil(filteredData.length / 2);
 
   return (
-    <section id='section__ALC' className='w-75 mx-auto mt-5'>
+    <section id='section__ALC' className='mx-md-5 mt-5'>
       <div className='d-md-flex justify-content-between'>
         <h3 className='section__Title col-md-7'>Menu ALC</h3>
         <input
           type='text'
           className='form-control col-md-5'
-          placeholder='Search...'
+          placeholder='Tìm theo tên món...'
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
@@ -44,7 +48,7 @@ const ALC = () => {
       <hr className='w-25' style={{ border: '1px solid var(--secondary-color)' }} />
 
       <div className='row'>
-        {filteredData.map((group, groupIndex) => (
+        {filteredData ? filteredData.map((group, groupIndex) => (
           <div key={groupIndex} className={`col-md-${tablesPerColumn > 1 ? '6' : '12'}`}>
             <h4 className='table-title'>{group.groupName}</h4>
             <div className='table-responsive bg-white'>
@@ -88,7 +92,8 @@ const ALC = () => {
               </table>
             </div>
           </div>
-        ))}
+        ))
+          : <>none</>}
       </div>
     </section>
   );

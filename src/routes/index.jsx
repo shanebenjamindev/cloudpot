@@ -22,7 +22,14 @@ const routes = [
                 path: "memo-page",
                 element: lazy(() => import("../pages/Memo"))
             },
-
+            {
+                path: "login-page",
+                element: lazy(() => import("../pages/Login"))
+            },
+            {
+                path: "tables-page",
+                element: lazy(() => import("../pages/Tables"))
+            }
         ]
     },
 
