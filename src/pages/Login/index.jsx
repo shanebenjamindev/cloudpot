@@ -31,7 +31,7 @@ export default function Login() {
 
     return (
         <div className='login-page bg-dark text-white'>
-            <div className='bg-dark w-25 p-2 border rounded'>
+            <div className='bg-dark w-50 p-2 border rounded'>
                 <form className='form' onSubmit={handleLogin}>
                     <label>Mã đăng nhập</label>
                     <p>(mã nhân viên)</p>
