@@ -1,13 +1,26 @@
 [
   {
     "Nhóm": "Nhóm khai vị",
+    "STT": "0",
+    "Mã món": "60018820",
+    "Tên món": "Đậu nành lông",
+    "ĐL": "70",
+    "DVT": "gr",
+    "Giá bán HCM": " 25,000 ",
+    "imageUrl": "/images/cloudpot-menu/menu_files/khaivi/daunanhlong.png",
+    "Nước chấm": " ",
+    "Rau ăn kèm": "",
+    "Note": ""
+  },
+  {
+    "Nhóm": "Nhóm khai vị",
     "STT": "1",
     "Mã món": "60018820",
     "Tên món": "Nấm tai mèo muối",
     "ĐL": "70",
     "DVT": "gr",
     "Giá bán HCM": " 25,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/khaivi/namtaimeomuoi.png",
     "Nước chấm": " ",
     "Rau ăn kèm": "",
     "Note": ""
@@ -20,7 +33,7 @@
     "ĐL": "3",
     "DVT": "PCS",
     "Giá bán HCM": " 69,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/banhbaokimsa.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -33,7 +46,7 @@
     "ĐL": "3",
     "DVT": "PCS",
     "Giá bán HCM": " 89,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/banhbaothantre.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -46,7 +59,7 @@
     "ĐL": "5",
     "DVT": "PCS",
     "Giá bán HCM": " 99,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/hacaobachhoa.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -59,7 +72,7 @@
     "ĐL": "5",
     "DVT": "PCS",
     "Giá bán HCM": " 89,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/hacaobaongu.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -72,7 +85,7 @@
     "ĐL": "5",
     "DVT": "PCS",
     "Giá bán HCM": " 89,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/hacaocahoi.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -85,7 +98,7 @@
     "ĐL": "5",
     "DVT": "PCS",
     "Giá bán HCM": " 99,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/hacaoboxoi.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -98,7 +111,7 @@
     "ĐL": "5",
     "DVT": "PCS",
     "Giá bán HCM": " 89,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/hacaobuphoa.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -111,7 +124,7 @@
     "ĐL": "5",
     "DVT": "PCS",
     "Giá bán HCM": " 89,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/hacaorongbienwashabi.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -124,7 +137,7 @@
     "ĐL": "2",
     "DVT": "PCS",
     "Giá bán HCM": " 79,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/xoikhuchanoi.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -137,7 +150,7 @@
     "ĐL": "130",
     "DVT": "gr",
     "Giá bán HCM": " 39,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/dimsum/vienochapbingo.png",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -150,7 +163,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 59,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": "Thêm décor bông cải xanh"
@@ -163,7 +176,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 59,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": "Thêm décor bông cải xanh"
@@ -176,7 +189,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 39,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -188,7 +201,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 179,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -200,7 +213,7 @@
     "ĐL": "250",
     "DVT": "gr",
     "Giá bán HCM": " 169,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -212,7 +225,7 @@
     "ĐL": "300",
     "DVT": "gr",
     "Giá bán HCM": " 259,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": "3 con/por"
@@ -224,7 +237,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 159,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -236,7 +249,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 139,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -248,7 +261,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 129,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -260,7 +273,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 159,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -272,7 +285,7 @@
     "ĐL": "500",
     "DVT": "gr",
     "Giá bán HCM": " 129,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -284,7 +297,7 @@
     "ĐL": "500",
     "DVT": "gr",
     "Giá bán HCM": " 139,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -296,7 +309,7 @@
     "ĐL": "120",
     "DVT": "gr",
     "Giá bán HCM": " 79,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -308,7 +321,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 119,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -320,7 +333,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 109,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -332,7 +345,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 159,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -344,7 +357,7 @@
     "ĐL": "200",
     "DVT": "gr",
     "Giá bán HCM": " 109,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -356,7 +369,7 @@
     "ĐL": "200",
     "DVT": "gr",
     "Giá bán HCM": " 119,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -368,7 +381,7 @@
     "ĐL": "200",
     "DVT": "gr",
     "Giá bán HCM": " 129,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -380,7 +393,7 @@
     "ĐL": "200",
     "DVT": "gr",
     "Giá bán HCM": " 59,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -392,7 +405,7 @@
     "ĐL": "300",
     "DVT": "gr",
     "Giá bán HCM": " 139,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -404,7 +417,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 119,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -416,7 +429,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 109,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -428,7 +441,7 @@
     "ĐL": "250",
     "DVT": "gr",
     "Giá bán HCM": " 209,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -440,7 +453,7 @@
     "ĐL": "120",
     "DVT": "gr",
     "Giá bán HCM": " 89,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -452,7 +465,7 @@
     "ĐL": "700",
     "DVT": "gr",
     "Giá bán HCM": " 419,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -464,7 +477,7 @@
     "ĐL": "300",
     "DVT": "gr",
     "Giá bán HCM": " 89,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -476,7 +489,7 @@
     "ĐL": "990",
     "DVT": "gr",
     "Giá bán HCM": " 669,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -488,7 +501,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 169,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "Tương bần",
     "Rau ăn kèm": "",
     "Note": ""
@@ -500,7 +513,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 99,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -512,7 +525,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 169,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -524,7 +537,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 139,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "Tương bần",
     "Rau ăn kèm": "",
     "Note": ""
@@ -536,7 +549,7 @@
     "ĐL": "1",
     "DVT": "CON",
     "Giá bán HCM": " 290,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -548,7 +561,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 169,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "Tương bần",
     "Rau ăn kèm": "",
     "Note": ""
@@ -560,7 +573,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 79,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -572,7 +585,7 @@
     "ĐL": "550",
     "DVT": "gr",
     "Giá bán HCM": " 289,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -584,7 +597,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 109,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -596,7 +609,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 79,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -608,7 +621,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 159,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -620,7 +633,7 @@
     "ĐL": "500",
     "DVT": "gr",
     "Giá bán HCM": " 169,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -632,7 +645,7 @@
     "ĐL": "600",
     "DVT": "gr",
     "Giá bán HCM": " 109,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -644,7 +657,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -656,7 +669,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -668,7 +681,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -680,7 +693,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 39,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -692,7 +705,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 39,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -704,7 +717,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -716,7 +729,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 60,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -728,7 +741,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -740,7 +753,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -752,7 +765,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -764,7 +777,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 25,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -776,7 +789,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -788,7 +801,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -800,7 +813,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 45,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -812,7 +825,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -824,7 +837,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 39,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -836,7 +849,7 @@
     "ĐL": "100",
     "DVT": "gr",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -848,7 +861,7 @@
     "ĐL": "215",
     "DVT": "gr",
     "Giá bán HCM": " 19,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -860,7 +873,7 @@
     "ĐL": "235",
     "DVT": "gr",
     "Giá bán HCM": " 59,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -872,7 +885,7 @@
     "ĐL": "252",
     "DVT": "gr",
     "Giá bán HCM": "",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -884,7 +897,7 @@
     "ĐL": "150",
     "DVT": "gr",
     "Giá bán HCM": " 45,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -896,7 +909,7 @@
     "ĐL": "1",
     "DVT": "QUẢ",
     "Giá bán HCM": " 25,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -909,7 +922,7 @@
     "ĐL": "50",
     "DVT": "gr",
     "Giá bán HCM": "",
-    "Hình ảnh món": "",
+    "imageUrl": "",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": "Tặng  mỗi bàn 1 đĩa"
@@ -922,7 +935,7 @@
     "ĐL": "",
     "DVT": "",
     "Giá bán HCM": " 29,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": "Bao gồm: hoa quả theo mùa, nước. kem, bánh..."
@@ -934,7 +947,7 @@
     "ĐL": "300",
     "DVT": "ml",
     "Giá bán HCM": " 55,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -946,7 +959,7 @@
     "ĐL": "300",
     "DVT": "ml",
     "Giá bán HCM": " 55,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -958,7 +971,7 @@
     "ĐL": "300",
     "DVT": "ml",
     "Giá bán HCM": " 55,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""
@@ -970,7 +983,7 @@
     "ĐL": "300",
     "DVT": "ml",
     "Giá bán HCM": " 55,000 ",
-    "Hình ảnh món": "",
+    "imageUrl": "/images/cloudpot-menu/menu_files/",
     "Nước chấm": "",
     "Rau ăn kèm": "",
     "Note": ""

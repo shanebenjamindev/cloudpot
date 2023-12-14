@@ -1,5 +1,6 @@
 import ALC from './ALC';
 import Drink from './Drink';
+import Combo from './Combo';
 import './menu.css';
 import menutime from '../../../public/images/cloudpot-menu/menu_files/image386.png'
 import { useEffect, useState } from 'react';
@@ -47,7 +48,7 @@ export default function Menu() {
           </div>
         )}
       </div>
-
+      <Combo />
       <Drink />
       <ALC />
       {BackToTopButton()}

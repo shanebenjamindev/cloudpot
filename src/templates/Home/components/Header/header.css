@@ -6,19 +6,33 @@
   z-index: 999;
 }
 
+.navbar {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar > span {
+  background-color: red;
+}
+
 nav a {
   color: inherit !important;
-}
-.navbar-toggler {
-  border: 1px solid white;
 }
 
 .navbar-brand hr {
   width: 0;
   opacity: 0;
-  transition: all 1s ease ;
+  transition: all 1s ease;
 }
 .navbar-brand:hover hr {
   width: 100%;
   opacity: 1;
+}
+
+.icon-bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  border-radius: 5px;
 }

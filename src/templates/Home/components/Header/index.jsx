@@ -6,7 +6,7 @@ export default function Header() {
     const { user, clearUser } = useLocalStorageUser()
 
     const handleLogout = () => {
-        clearUser()
+        return clearUser()
     }
 
     return (
@@ -27,7 +27,11 @@ export default function Header() {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <span className="text-white">-</span>
+                <div>
+                    <span className="icon-bar" />
+                    <span className="icon-bar" />
+                    <span className="icon-bar" />
+                </div>
             </button>
 
             <div className="collapse navbar-collapse " id="navbarNav">
@@ -50,7 +54,7 @@ export default function Header() {
                             <Link to="/tables-page" className="nav-link">Danh sách bàn</Link>
                         </li>
                         <li className="nav-item">
-                            <button onClick={handleLogout} className="nav-link"><button className="">Logout</button></button>
+                            <Link className="nav-link"><button onClick={handleLogout}>Logout</button></Link>
                         </li>
                     </> : <li className="nav-item">
                         <Link to="/login-page" className="nav-link"><button className="">Login</button></Link>

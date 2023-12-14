@@ -26,7 +26,7 @@ export default function Login() {
     };
 
     const handleLogin = (e) => {
-        saveUser(state);
+       return saveUser(state);
     };
 
     return (

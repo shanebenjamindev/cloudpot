@@ -1,0 +1,45 @@
+[
+  {
+    "coverList": [
+      {
+        "imageUrl": "/images/cloudpot-menu-HCM/cover/cover1.jpg"
+      },
+      {
+        "imageUrl": "/images/cloudpot-menu-HCM/cover/cover2.jpg"
+      }
+    ],
+
+    "drinkList": [
+      {
+        "id": 1,
+        "name": "drink1",
+        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "drink2",
+        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "drink3",
+        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "drink4",
+        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "drink1",
+        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink5.jpg"
+      }
+    ],
+    "seafoodList": [
+      {
+        "name": "sea"
+      }
+    ]
+  }
+]

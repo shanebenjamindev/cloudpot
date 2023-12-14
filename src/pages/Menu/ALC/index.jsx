@@ -57,6 +57,7 @@ const ALC = () => {
                   <tr>
                     <th>STT</th>
                     <th>Tên món</th>
+                    <th>Picture</th>
                     <th>ĐL tổng (gram)</th>
                     <th>Giá bán (HCM)</th>
                     <th>Nước chấm</th>
@@ -69,6 +70,7 @@ const ALC = () => {
                     <tr key={itemIndex}>
                       <td>{itemIndex + 1}</td>
                       <td>{item['Tên món']}</td>
+                      <td><img src={item['imageUrl']} /></td>
                       <td>{item['ĐL']} gram</td>
                       <td>{item['Giá bán HCM']} VND</td>
                       <td>

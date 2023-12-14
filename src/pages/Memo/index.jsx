@@ -13,8 +13,8 @@ const Memo = () => {
     };
 
     return (
-        <section id='section__Memo' style={{ paddingTop: "4rem" }} className=' d-md-flex'>
-            <div className='col-md-5'>
+        <section id='section__Memo ' style={{ paddingTop: "4rem" }} className=' d-md-flex'>
+            <div className='col-md-5 memo__PDF'>
                 <h1 className='section__Title'>MEMO </h1>
                 <hr className="" style={{ border: "1px solid var(--secondary-color)" }} />
                 <MemoContent />
