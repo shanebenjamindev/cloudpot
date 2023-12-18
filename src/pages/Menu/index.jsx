@@ -5,6 +5,7 @@ import './menu.css';
 import menutime from '../../../public/images/cloudpot-menu/menu_files/image386.png'
 import { useEffect, useState } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
+import Line from './Line';
 
 export default function Menu() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -50,6 +51,7 @@ export default function Menu() {
       </div>
       <Combo />
       <Drink />
+      <Line />
       <ALC />
       {BackToTopButton()}
     </div>

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import menuJson from '../../../../public/images/cloudpot-menu/menuJson.json';
+import menuJson from '/public/images/cloudpot-menu/menuJson.json';
 import './ALC.css';
 
 const ALC = () => {
