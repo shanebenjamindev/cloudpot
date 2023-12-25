@@ -16,7 +16,7 @@ const ALC = () => {
     return result;
   }, {});
 
-  const filteredData = Object.keys(groupedData).map((groupName, groupIndex) => {
+  const filteredData = Object.keys(groupedData).map((groupName) => {
     const filteredItems = groupedData[groupName].filter((item) =>
       item['Tên món'].toLowerCase().includes(searchTerm.toLowerCase())
     );

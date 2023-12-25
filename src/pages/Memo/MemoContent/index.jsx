@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import memoData from '/public/memo/memoData.json';
 const MemoContent = () => {
     console.log(memoData[0]);
@@ -22,7 +21,6 @@ const MemoContent = () => {
     );
 };
 
-// Memo content items
 const MemoItem = ({ title, time, discount, includes, conditions }) => {
     return (
         <div>

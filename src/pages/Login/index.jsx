@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useLocalStorageUser from '/src/assets/hooks';
 import './login.css';
 import employeeData from '/public/cloudpot-employee/employeeData.json';
-import { useEffect } from 'react';
 
 export default function Login() {
 
