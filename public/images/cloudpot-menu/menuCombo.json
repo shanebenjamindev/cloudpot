@@ -1,56 +1,42 @@
 [
   {
-    "combos": [
-      {
-        "TênCombo": "Combo Thanh Xuân",
-        "Món": "",
-        "SốKhách": "",
-        "Số món": ""
-      }
-    ]
+    "ComboName": "Combo Thanh Xuân",
+    "Món": "",
+    "SốKhách": "",
+    "Sốmón": "12",
+    "Giá": 1.299,
+    "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_ThanhXuan.PNG"
   },
-
   {
-    "combos": [
-      {
-        "TênCombo": "Combo Bổ Dưỡng",
-        "Món": "",
-        "SốKhách": "",
-        "Số món": ""
-      }
-    ]
+    "ComboName": "Combo Bổ Dưỡng",
+    "Món": "",
+    "SốKhách": "",
+    "Sốmón": "13",
+    "Giá": 1.39,
+    "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_BoDuong.PNG"
   },
-
   {
-    "combos": [
-      {
-        "TênCombo": "Combo Tươi Mới",
-        "Món": "",
-        "SốKhách": "",
-        "Số món": ""
-      }
-    ]
+    "ComboName": "Combo Tươi Mới",
+    "Món": "",
+    "SốKhách": "",
+    "Sốmón": "13",
+    "Giá": 1.199,
+    "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_TuoiMoi.PNG"
   },
-
   {
-    "combos": [
-      {
-        "TênCombo": "Combo Thành Ý",
-        "Món": "",
-        "SốKhách": "",
-        "Số món": ""
-      }
-    ]
+    "ComboName": "Combo Thành Ý",
+    "Món": "",
+    "SốKhách": "",
+    "Sốmón": "15",
+    "Giá": 899,
+    "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_ThanhY.PNG"
   },
-
   {
-    "combos": [
-      {
-        "TênCombo": "Combo Tâm Giao",
-        "Món": "",
-        "SốKhách": "",
-        "Số món": ""
-      }
-    ]
+    "ComboName": "Combo Tâm Giao",
+    "Món": "",
+    "SốKhách": "",
+    "Sốmón": "12",
+    "Giá": 1,
+    "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_TamGiao.PNG"
   }
 ]

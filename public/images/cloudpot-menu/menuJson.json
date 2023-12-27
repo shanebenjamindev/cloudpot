@@ -495,7 +495,7 @@
     "Giá bán HCM": " 169,000 ",
     "imageUrl": "/images/cloudpot-menu/menu_files/thit/loivaibo.png",
     "Nước chấm": "Tương bần",
-    "Rau ăn kèm": "",
+    "Rau ăn kèm": "Rau cuộn",
     "Note": ""
   },
   {
@@ -528,7 +528,7 @@
     "Giá bán HCM": " 139,000 ",
     "imageUrl": "/images/cloudpot-menu/menu_files/thit/behapgung.png",
     "Nước chấm": "Tương bần",
-    "Rau ăn kèm": "",
+    "Rau ăn kèm": "Rau cuộn",
     "Note": ""
   },
   {
@@ -550,7 +550,7 @@
     "Giá bán HCM": " 169,000 ",
     "imageUrl": "/images/cloudpot-menu/menu_files/thit/debabyhapthaomoc.png",
     "Nước chấm": "Tương bần",
-    "Rau ăn kèm": "",
+    "Rau ăn kèm": "Rau cuộn",
     "Note": ""
   },
   {
@@ -873,7 +873,7 @@
     "Note": ""
   },
   {
-    "Nhóm": "Nhóm line/ ăn kèm cháo",
+    "Nhóm": "Nhóm khai vị",
     "STT": "",
     "Tên món": "Lạc rang muối đĩa mời",
     "ĐL": "50",

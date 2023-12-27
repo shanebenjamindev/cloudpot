@@ -29,6 +29,10 @@ const routes = [
             {
                 path: "tables-page",
                 element: lazy(() => import("../pages/Tables"))
+            },
+            {
+                path:"combodetails/:combo",
+                element: lazy(()=> import("../pages/ComboDetails"))
             }
         ]
     },

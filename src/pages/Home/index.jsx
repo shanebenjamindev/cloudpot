@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import './home.css'
 import memoData from '/public/memo/memoData.json';
 export default function Home() {
   const renderMemo = () => {
     console.log(memoData);
-    return memoData?.[0]?.December?.map((memo) => (
-      <div className="home-news-item mb-3">{memo.title}</div>
+    return memoData?.[0]?.December?.map((memo,index) => (
+      <div key={index} className="home-news-item mb-3">{memo.title}</div>
     ))
   }
 
@@ -17,9 +16,9 @@ export default function Home() {
           <div className="col-md-6">
             <img className="w-100" src="https://xachtaynhat.net/wp-content/uploads/2022/07/Nuoc-giai-khat-82X-bo-xung-Collage.jpg" />
           </div>
-          <section className="col-md-6 mt-5">
+          <div className="col-md-6 mt-5">
             {renderMemo()}
-          </section>
+          </div>
         </div>
       </div>
     </div>
