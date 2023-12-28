@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './combo.css';
 
-import menuCombo from '/public/images/cloudpot-menu/menuCombo.json';
+import menuData from '/src/menuData.json';
 
 export default function Combo() {
-    const [hoveredCombo, setHoveredCombo] = useState(menuCombo[0]);
+    const [hoveredCombo, setHoveredCombo] = useState(menuData.ComboList[0]);
 
     return (
         <section id='section__Combo' className='section__Combo'>
@@ -17,7 +17,7 @@ export default function Combo() {
                     )}
                 </div>
                 <ul className='col-md-4 text-right'>
-                    {menuCombo.map((combo) => (
+                    {menuData.ComboList.map((combo) => (
                         <li
                             key={combo.ComboName}
                             onClick={() => setHoveredCombo(combo)}

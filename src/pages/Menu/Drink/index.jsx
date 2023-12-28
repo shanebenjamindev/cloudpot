@@ -4,10 +4,8 @@ export default function Drink() {
 
 
   const renderDrink = () => {
-    return menuData.map((menu) => {
-      return menu.drinkList.map((drink,index) => {
-        return <div key={index} className='drink-item'><img src={drink.imageUrl} /></div>
-      });
+    return menuData.drinkList.map((drink, index) => {
+      return <div key={index} className='drink-item'><img src={drink.imageUrl} /></div>
     })
   }
 

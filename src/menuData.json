@@ -1,45 +1,82 @@
-[
-  {
-    "coverList": [
+{
+  "coverList": [
+    {
+      "imageUrl": "/images/cloudpot-menu-HCM/cover/cover1.jpg"
+    },
+    {
+      "imageUrl": "/images/cloudpot-menu-HCM/cover/cover2.jpg"
+    }
+  ],
+  "ComboList": [
+    
       {
-        "imageUrl": "/images/cloudpot-menu-HCM/cover/cover1.jpg"
+        "ComboName": "Combo Thanh Xuân",
+        "Món": "",
+        "SốKhách": "",
+        "Sốmón": "12",
+        "Giá": 1.299,
+        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_ThanhXuan.PNG"
       },
       {
-        "imageUrl": "/images/cloudpot-menu-HCM/cover/cover2.jpg"
+        "ComboName": "Combo Bổ Dưỡng",
+        "Món": "",
+        "SốKhách": "",
+        "Sốmón": "13",
+        "Giá": 1.39,
+        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_BoDuong.PNG"
+      },
+      {
+        "ComboName": "Combo Tươi Mới",
+        "Món": "",
+        "SốKhách": "",
+        "Sốmón": "13",
+        "Giá": 1.199,
+        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_TuoiMoi.PNG"
+      },
+      {
+        "ComboName": "Combo Thành Ý",
+        "Món": "",
+        "SốKhách": "",
+        "Sốmón": "15",
+        "Giá": 899,
+        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_ThanhY.PNG"
+      },
+      {
+        "ComboName": "Combo Tâm Giao",
+        "Món": "",
+        "SốKhách": "",
+        "Sốmón": "12",
+        "Giá": 1,
+        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_TamGiao.PNG"
       }
-    ],
+    
+  ],
 
-    "drinkList": [
-      {
-        "id": 1,
-        "name": "drink1",
-        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink1.jpg"
-      },
-      {
-        "id": 2,
-        "name": "drink2",
-        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink2.jpg"
-      },
-      {
-        "id": 3,
-        "name": "drink3",
-        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink3.jpg"
-      },
-      {
-        "id": 4,
-        "name": "drink4",
-        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink4.jpg"
-      },
-      {
-        "id": 5,
-        "name": "drink1",
-        "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink5.jpg"
-      }
-    ],
-    "seafoodList": [
-      {
-        "name": "sea"
-      }
-    ]
-  }
-]
+  "drinkList": [
+    {
+      "id": 1,
+      "name": "drink1",
+      "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "drink2",
+      "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "drink3",
+      "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "drink4",
+      "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "drink1",
+      "imageUrl": "/images/cloudpot-menu-HCM/drinks/drink5.jpg"
+    }
+  ]
+}
