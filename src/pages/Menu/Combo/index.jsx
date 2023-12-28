@@ -7,7 +7,7 @@ export default function Combo() {
     const [hoveredCombo, setHoveredCombo] = useState(menuCombo[0]);
 
     return (
-        <section className='section__Combo'>
+        <section id='section__Combo' className='section__Combo'>
             <h1 className='section__Title'>Set Combos</h1>
             <hr className="w-75" style={{ border: "1px solid var(--secondary-color)" }} />
             <div className='row'>

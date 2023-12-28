@@ -12,7 +12,7 @@ export default function Drink() {
   }
 
   return (
-    <section className='section__Drink'>
+    <section id='section__Drink'>
       <hr className="w-75" style={{ border: "1px solid var(--secondary-color)" }} />
       <div className='drink-list d-md-flex'>
         {
