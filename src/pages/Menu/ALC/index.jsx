@@ -34,9 +34,10 @@ const ALC = () => {
   const tablesPerColumn = Math.ceil(filteredData.length / 2);
 
   return (
-    <section id='section__ALC' className='mx-md-5 mt-5'>
+    <section id='section__ALC' className=''>
       <div className='d-md-flex justify-content-between'>
-        <h3 className='section__Title col-md-7'>Menu ALC</h3>
+        <h1 className='section__Title col-md-7'>Menu ALC</h1>
+        <hr className="w-100" style={{ border: "1px solid var(--secondary-color)" }} />
         <input
           type='text'
           className='form-control col-md-5'

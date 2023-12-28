@@ -29,22 +29,38 @@ export default function Header() {
             </button>
 
             <div className="collapse navbar-collapse " id="navbarNav">
-                <ul className="navbar-nav ml-auto text-center">
-
-                    <li className="nav-item">
-                        <Link to="/" className="nav-link">Home</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="menu-page" className="nav-link">Menu</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="services-page" className="nav-link">Services</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/memo-page" className="nav-link">Memo</Link>
-                    </li>
-                </ul>
+                <Navbar />
             </div>
         </nav>
+    )
+}
+
+export function Navbar() {
+    return (
+        <ul className="navbar-nav ml-auto text-center">
+            <div className="d-md-flex nav-items">
+
+                <Link to="/" className="nav-link">
+                    <li className="nav-item">
+                        Home
+                    </li>
+                </Link>
+                <Link to="menu-page" className="nav-link">
+                    <li className="nav-item">
+                        Menu
+                    </li>
+                </Link>
+                <Link to="services-page" className="nav-link">
+                    <li className="nav-item">
+                        Services
+                    </li>
+                </Link>
+                <Link to="/memo-page" className="nav-link">
+                    <li className="nav-item">
+                        Memo
+                    </li>
+                </Link>
+            </div>
+        </ul>
     )
 }

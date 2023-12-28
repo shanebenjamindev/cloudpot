@@ -1,18 +1,21 @@
+.section__Combo {
+  margin-top: 30px;
+  padding: 30px;
+}
 .combo__Item {
-    background-color: var(--primary-color);
-    border-radius: 4px;
-    margin: 10px 30px;
-    padding: 10px;
-    cursor: pointer;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  margin: 10px 30px;
+  padding: 10px;
+  cursor: pointer;
 }
 .chartImg {
-    position: relative;
-    transition: all 1s ease;
-
+  position: relative;
+  transition: all 1s ease;
 }
 .chartImg img {
-    top: -10px;
-    left: 0;
-    padding: 0 30px;
-    z-index: 99;
+  top: -10px;
+  left: 0;
+  padding: 0 30px;
+  z-index: 99;
 }

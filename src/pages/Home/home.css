@@ -1,7 +1,6 @@
 .home-link {
   background-color: var(--primary-color);
   border-radius: 14px;
-
 }
 
 .home-list-link {
@@ -19,25 +18,26 @@
 }
 
 .bg-home {
-  background-image: url("https://toplist.vn/images/800px/cloud-pot-lau-hap-thuy-nhiet-1223114.jpg");
   /* background-image: url("https://scontent.fsgn5-13.fna.fbcdn.net/v/t39.30808-6/391762750_122120426336037350_1717292447155718940_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGAC8FRGeVPmlWLGdh3fhF2pvXsqtm1lK6m9eyq2bWUrn4vnmMNiyT3iHEz-GBjECzIO7npFrshDpaKGt2kjCU5&_nc_ohc=QGy7pHRoEDQAX9E8XkM&_nc_ht=scontent.fsgn5-13.fna&oh=00_AfDFZarLK81ugRLyHSzIVNQpAXBjB72JDAGfI8Ps4q9E7Q&oe=65643904"); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 1;
-  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: large;
   position: relative;
   overflow: hidden;
-}
+  background-color: transparent;
+  height: 100dvh;
+
+  background-image: url(/public/images/background-img/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur();
+} 
 
 .home__Content {
   z-index: 999;
-
 }
 .home__Content span {
   color: var(--primary-color);
@@ -74,7 +74,20 @@
 }
 
 .home-news-item {
-  border:1px  solid black;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 10px;
+}
+
+.section__Home .nav-item {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 4px;
+  margin: 30px;
+  transition: all 0.5s ease;
+}
+
+.section__Home .nav-item:hover {
+  background-color: var(--primary-color);
+  color: white !important;
 }

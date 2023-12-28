@@ -7,8 +7,9 @@ export default function Combo() {
     const [hoveredCombo, setHoveredCombo] = useState(null);
 
     return (
-        <div className='section__Combo container bg-white my-5 p-2 border rounded'>
+        <section className='section__Combo'>
             <h1 className='section__Title'>Set Combos</h1>
+            <hr className="w-75" style={{ border: "1px solid var(--secondary-color)" }} />
             <div className='row'>
                 <div className='col-md-8 chartImg'>
                     {hoveredCombo && (
@@ -29,6 +30,6 @@ export default function Combo() {
 
 
             </div>
-        </div>
+        </section>
     );
 }

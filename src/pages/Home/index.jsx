@@ -1,24 +1,18 @@
 import './home.css'
 import memoData from '/public/memo/memoData.json';
+import { Navbar } from '../../templates/Home/components/Header';
+
 export default function Home() {
-  const renderMemo = () => {
-    console.log(memoData);
-    return memoData?.[0]?.December?.map((memo,index) => (
-      <div key={index} className="home-news-item mb-3">{memo.title}</div>
-    ))
-  }
 
 
   return (
-    <div className="section__Home bg-home">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-            <img className="w-100" src="https://xachtaynhat.net/wp-content/uploads/2022/07/Nuoc-giai-khat-82X-bo-xung-Collage.jpg" />
-          </div>
-          <div className="col-md-6 mt-5">
-            {renderMemo()}
-          </div>
+    <div className="section__Home">
+      <div className='bg-home'>
+        <div className='text-center'>
+          <h1 className='section__Title'>CLOUDPOT</h1>
+          <hr className="w-100" style={{ border: "1px solid var(--secondary-color)" }} />
+          <h3 className=''>45 Trương Công Định</h3>
+          <Navbar />
         </div>
       </div>
     </div>
@@ -72,3 +66,9 @@ export default function Home() {
 //         </div>
 //       </div>
 //     </div>
+// const renderMemo = () => {
+//   console.log(memoData);
+//   return memoData?.[0]?.December?.map((memo, index) => (
+//     <div key={index} className="home-news-item mb-3">{memo.title}</div>
+//   ))
+// }

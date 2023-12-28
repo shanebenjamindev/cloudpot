@@ -4,6 +4,7 @@
 }
 .section__Title {
   color: var(--primary-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29rem 0px;
 }
 
 *,
@@ -54,5 +55,4 @@ section {
   background-color: aliceblue;
   padding: 20px;
   border-radius: 4px;
-  margin: 30px 0;
 }
