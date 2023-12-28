@@ -4,7 +4,7 @@ import './combo.css';
 import menuCombo from '/public/images/cloudpot-menu/menuCombo.json';
 
 export default function Combo() {
-    const [hoveredCombo, setHoveredCombo] = useState(null);
+    const [hoveredCombo, setHoveredCombo] = useState(menuCombo[0]);
 
     return (
         <section className='section__Combo'>
