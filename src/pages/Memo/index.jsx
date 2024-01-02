@@ -4,7 +4,6 @@ import { useState } from 'react';
 import MemoContent from './MemoContent';
 import './memo.css'
 
-// Memo component
 const Memo = () => {
     const [showPdf, setShowPdf] = useState(false);
 
@@ -15,10 +14,7 @@ const Memo = () => {
     return (
         <section id='section__Memo ' style={{ paddingTop: "4rem" }} className=' d-md-flex'>
             <div className='col-md-5 memo__PDF'>
-                <h1 className='section__Title'>MEMO </h1>
-                <hr className="" style={{ border: "1px solid var(--secondary-color)" }} />
                 <MemoContent />
-
             </div>
             <div className='col-md-7 text-center memo__PDF'>
                 <button className='btn btn-outline-danger' onClick={togglePdfVisibility}>
@@ -30,7 +26,6 @@ const Memo = () => {
     );
 };
 
-// Memo PDF page
 const memoPage = () => {
     return (
         <Worker workerUrl={`https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js`}>
