@@ -1,5 +1,4 @@
 import './home.css'
-import memoData from '/public/memo/memoData.json';
 import { Navbar } from '../../templates/Home/components/Header';
 
 export default function Home() {
@@ -7,11 +6,15 @@ export default function Home() {
 
   return (
     <div className="section__Home">
-      <div className='bg-home'>
-        <div className='text-center'>
+      <div className='bg-home d-md-flex'>
+
+
+        <div className='text-center col-md-7'>
           <h1 className='section__Title'>CLOUDPOT</h1>
           <hr className="w-100" style={{ border: "1px solid var(--secondary-color)" }} />
           <h3 className=''>45 Trương Công Định</h3>
+        </div>
+        <div className='col-md-5'>
           <Navbar />
         </div>
       </div>

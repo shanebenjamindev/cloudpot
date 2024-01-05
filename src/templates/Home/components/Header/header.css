@@ -1,27 +1,38 @@
-.navbar {
+.navbar-cus {
   top: 0;
   width: 100%;
   background-color: var(--primary-color);
   position: fixed;
   z-index: 999;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 
-.navbar {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.nav-Container {
+  gap: 10px;
+  background-color: var(--secondary-color);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
 }
 
-.navbar > span {
-  background-color: red;
-}
-
-nav a {
-  color: inherit !important;
+.inactive {
+  transform: translateX(100%);
+  opacity: 0;
 }
 
 .navbar-brand hr {
   width: 0;
   opacity: 0;
-  transition: all 1s ease;
 }
 .navbar-brand:hover hr {
   width: 100%;
@@ -33,6 +44,19 @@ nav a {
   width: 25px;
   height: 3px;
   background-color: #fff;
-  margin: 5px 0;
   border-radius: 5px;
+  margin: 3px 0;
+}
+
+.nav-List {
+  display: flex;
+}
+
+.nav-ListLink {
+  padding: 0 10px;
+  color: white; 
+}
+
+.nav-item{
+  color: white !important;
 }
