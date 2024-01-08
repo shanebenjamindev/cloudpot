@@ -25,7 +25,6 @@
   position: relative;
   overflow: hidden;
   background-color: transparent;
-  height: 100dvh;
   padding: 100px 0;
   background-image: url(/public/images/background-img/bg-home.jpg);
   background-repeat: no-repeat;

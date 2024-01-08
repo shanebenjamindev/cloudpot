@@ -15,7 +15,7 @@
         "SốKhách": "",
         "Sốmón": "12",
         "Giá": 1.299,
-        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_ThanhXuan.PNG"
+        "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_ThanhXuan.PNG"
       },
       {
         "ComboName": "Combo Bổ Dưỡng",
@@ -23,7 +23,7 @@
         "SốKhách": "",
         "Sốmón": "13",
         "Giá": 1.39,
-        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_BoDuong.PNG"
+        "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_BoDuong.PNG"
       },
       {
         "ComboName": "Combo Tươi Mới",
@@ -31,7 +31,7 @@
         "SốKhách": "",
         "Sốmón": "13",
         "Giá": 1.199,
-        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_TuoiMoi.PNG"
+        "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_TuoiMoi.PNG"
       },
       {
         "ComboName": "Combo Thành Ý",
@@ -39,7 +39,7 @@
         "SốKhách": "",
         "Sốmón": "15",
         "Giá": 899,
-        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_ThanhY.PNG"
+        "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_ThanhY.PNG"
       },
       {
         "ComboName": "Combo Tâm Giao",
@@ -47,7 +47,7 @@
         "SốKhách": "",
         "Sốmón": "12",
         "Giá": 1,
-        "ChartImg": "/public/images/cloudpot-menu/setmenu/chart/set_TamGiao.PNG"
+        "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_TamGiao.PNG"
       }
     
   ],
