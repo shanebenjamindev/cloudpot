@@ -21,12 +21,12 @@ export default function Header() {
     }, []);
 
     return (
-        <nav className="navbar navbar-expand-md navbar-cus p-2">
+        <div className="navbar navbar-expand-md navbar-cus p-2">
             <Link to="/" className="navbar-brand d-flex align-items-center">
                 <img src="/images/logo.png" className="px-2 mx-2 bg-white" width={"100px"} alt="Logo" />
                 <span>Training Site</span>
             </Link>
-            <button onClick={() => setOpenNav(!openNav)} className="navbar-toggler d-md-none sm-d-block" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button onClick={() => setOpenNav(!openNav)} className={` navbar-toggler d-md-none sm-d-block ${openNav ? 'd-none' : ''}`} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
@@ -34,7 +34,7 @@ export default function Header() {
             <div className={`collapse navbar-collapse` && window.innerWidth < 768 && !openNav ? 'd-none' : ''} ref={navRef} id="navbarNav">
                 <Navbar />
             </div>
-        </nav>
+        </div >
     );
 }
 
