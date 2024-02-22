@@ -56,7 +56,6 @@ a {
 }
 
 section {
-  min-height: 100dvh;
   background-color: aliceblue;
   padding: 20px;
   border-radius: 4px;

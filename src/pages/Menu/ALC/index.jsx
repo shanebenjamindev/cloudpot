@@ -6,7 +6,6 @@ const ALC = () => {
   const data = menuJson;
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Group items by "Nhóm"
   const groupedData = data.reduce((result, item) => {
     const groupName = item.Nhóm;
     if (!result[groupName]) {
@@ -21,7 +20,6 @@ const ALC = () => {
       item['Tên món'].toLowerCase().includes(searchTerm.toLowerCase())
     );
 
-    // Only include the group if there are matching items
     if (filteredItems.length > 0) {
       return {
         groupName,
@@ -31,10 +29,9 @@ const ALC = () => {
 
     return null;
   }).filter(Boolean);
-  const tablesPerColumn = Math.ceil(filteredData.length / 2);
 
   return (
-    <section id='section__ALC' className=''>
+    <section id='section__ALC' className='w-75 m-auto'>
       <div className='d-md-flex justify-content-between'>
         <h1 className='section__Title col-md-7'>Menu ALC</h1>
         <hr className="w-100" style={{ border: "1px solid var(--secondary-color)" }} />
@@ -48,9 +45,9 @@ const ALC = () => {
       </div>
       <hr className='w-25' style={{ border: '1px solid var(--secondary-color)' }} />
 
-      <div className='row'>
+      <div className='container'>
         {filteredData ? filteredData.map((group, groupIndex) => (
-          <div key={groupIndex} className={`col-md-${tablesPerColumn > 1 ? '6' : '12'}`}>
+          <div key={groupIndex} >
             <h4 className='table-title'>{group.groupName}</h4>
             <div className='table-responsive bg-white'>
               <table className='table table-bordered table-striped'>

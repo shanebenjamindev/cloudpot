@@ -21,7 +21,7 @@
 
 .drink-list::-webkit-scrollbar {
   width: 1em;
-  height: 5px;
+  height: 10px;
 }
 
 .drink-list::-webkit-scrollbar-track {

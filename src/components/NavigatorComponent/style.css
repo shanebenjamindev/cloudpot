@@ -1,0 +1,40 @@
+.card-list {
+  gap: 30px;
+}
+
+.custom-card {
+  position: relative;
+  padding: 0;
+}
+
+.custom-body {
+  position: absolute;
+  box-shadow: black 0px 0px 100px 10px;
+  bottom: 40px;
+  transition: all 0.25s ease;
+  font-size: 40px;
+  color: var(--primary-color);
+  transform: translateX(-10px);
+}
+
+.custom-card:hover .custom-body {
+  box-shadow: none;
+  background-color: var(--primary-color);
+  transform: translate(-20px, -20px);
+  color: white;
+}
+
+.custom-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: inset black 0px 0px 150px 12rem;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.custom-card:hover .custom-overlay {
+  opacity: 50%;
+}

@@ -8,9 +8,8 @@
     }
   ],
   "ComboList": [
-    
       {
-        "ComboName": "Combo Thanh Xuân",
+        "ComboName": "Thanh Xuân",
         "Món": "",
         "SốKhách": "",
         "Sốmón": "12",
@@ -18,7 +17,7 @@
         "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_ThanhXuan.PNG"
       },
       {
-        "ComboName": "Combo Bổ Dưỡng",
+        "ComboName": "Bổ Dưỡng",
         "Món": "",
         "SốKhách": "",
         "Sốmón": "13",
@@ -26,7 +25,7 @@
         "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_BoDuong.PNG"
       },
       {
-        "ComboName": "Combo Tươi Mới",
+        "ComboName": "Tươi Mới",
         "Món": "",
         "SốKhách": "",
         "Sốmón": "13",
@@ -34,7 +33,7 @@
         "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_TuoiMoi.PNG"
       },
       {
-        "ComboName": "Combo Thành Ý",
+        "ComboName": "Thành Ý",
         "Món": "",
         "SốKhách": "",
         "Sốmón": "15",
@@ -42,7 +41,7 @@
         "ChartImg": "/images/cloudpot-menu/setmenu/chart/set_ThanhY.PNG"
       },
       {
-        "ComboName": "Combo Tâm Giao",
+        "ComboName": "Tâm Giao",
         "Món": "",
         "SốKhách": "",
         "Sốmón": "12",

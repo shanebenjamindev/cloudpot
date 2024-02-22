@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className="footer">
-            <div className="bg-success text-white"  style = {{padding: "30px"}}>
+            <div className="bg-success text-white" style={{ padding: "30px" }}>
                 <div className="d-md-flex">
                     <div className="col-md-4 info-box">
                         <h4>HÀ NỘI</h4>
@@ -12,6 +12,7 @@ export default function Footer() {
                     <div className="col-md-4 info-box">
                         <h4>TP. HỒ CHÍ MINH</h4>
                         <p>45 Trương Công Định, Phường 14, Tân Bình, Thành phố Hồ Chí Minh</p>
+                        <p>300 Đ. Lê Văn Sỹ, Phường 1, Tân Bình, Thành phố Hồ Chí Minh 70000, Việt Nam</p>
                     </div>
                     <iframe
                         className="col-md-4 "
@@ -25,6 +26,7 @@ export default function Footer() {
                     <p className="mx-2">Từ nhà sáng lập Ashima</p>
                     <img width={40} src="https://th.bing.com/th/id/OIP.5ay6N6ejA6Ll0pA_o4nd_wHaJK?rs=1&pid=ImgDetMain" />
                 </div>
+               
             </div>
         </footer>
     );

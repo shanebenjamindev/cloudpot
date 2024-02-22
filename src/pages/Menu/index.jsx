@@ -5,7 +5,6 @@ import './menu.css';
 import menutime from '../../../public/images/cloudpot-menu/menu_files/image386.png'
 import { useEffect, useState } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import Line from './Line';
 
 export default function Menu() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -26,12 +25,13 @@ export default function Menu() {
   return (
     <div className='bg-menu'>
       {naviMenu()}
-      <div className='menu-container d-md-flex flex-wrap align-items-center container'>
-        <div className='col-md-6 text-center my-2'>
+      <div className='menu-container d-md-flex flex-wrap align-items-center  w-75 mx-auto'>
+        <div className='col-md-3 text-center my-2'>
           <img className='cloudpot-logo' src="https://imagedelivery.net/1J0pLjFdKJBzEdIlr1bDRQ/35c89544-caf4-4573-0408-fac18280d400/public" />
         </div>
+
         {images.map((image, index) => (
-          <div key={index} className='col-md-6'>
+          <div key={index} className='col-md-3'>
             <img
               src={image}
               alt={`Gallery Image ${index + 1}`}
@@ -41,6 +41,9 @@ export default function Menu() {
           </div>
         ))}
 
+        <div className='col-md-6'>
+          <Combo />
+        </div>
         {modalOpen && (
           <div className="modal-overlay" onClick={closeModal}>
             <div className="modal">
@@ -49,10 +52,10 @@ export default function Menu() {
           </div>
         )}
       </div>
-      <Combo />
+      <div className="my-2">
+        <ALC />
+      </div>
       <Drink />
-      <Line />
-      <ALC />
       {BackToTopButton()}
     </div>
   )
@@ -66,16 +69,14 @@ function naviMenu() {
           Combo
         </li>
       </a>
-
-      <a href='#section__Drink' className='nav-link'>
-        <li>
-          Drink
-        </li>
-      </a>
-
       <a href='#section__ALC' className='nav-link'>
         <li>
           ALC
+        </li>
+      </a>
+      <a href='#section__Drink' className='nav-link'>
+        <li>
+          Drink
         </li>
       </a>
     </ol>
@@ -88,7 +89,7 @@ const BackToTopButton = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsVisible(window.scrollY > 100); // Adjust the scroll position as needed
+      setIsVisible(window.scrollY > 100);
     };
 
     window.addEventListener('scroll', handleScroll);
