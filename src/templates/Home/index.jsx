@@ -5,7 +5,7 @@ export default function HomeTemplate() {
   return (
     <div>
       <Header />
-      <div className='h-100vh'>
+      <div>
         <PageContent />
       </div>
       <Footer />

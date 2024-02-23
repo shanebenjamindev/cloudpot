@@ -11,12 +11,12 @@ export default function Combo() {
             <h1 className='section__Title'>Set Combos</h1>
             <hr className="" style={{ border: "1px solid var(--secondary-color)" }} />
 
-            <div>
+            <div className='chart__Contain'>
                 {hoveredCombo && (
                     <img className='' width={"100%"} src={hoveredCombo.ChartImg} alt={hoveredCombo.ComboName} />
                 )}
             </div>
-            <div className='container d-md-flex'>
+            <div className='d-md-flex list-Menu'>
                 {menuData.ComboList.map((combo) => (
                     <li
                         key={combo.ComboName}

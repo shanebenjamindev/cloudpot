@@ -8,28 +8,28 @@ import { Link } from 'react-router-dom';
 
 export default function NavigatorComponent() {
   return (
-    <div className="d-md-flex card-list container p-3">
-      <div className="col-md-4 custom-card">
-        <Link to='/services-page'>
+    <div className="d-md-flex card-list container p-2">
+      <Card className="col-md-4 my-2 mx-md-2 custom-card" data-aos="fade-left">
+        <Link to='/services-page' className=''>
           <div className='custom-overlay'></div>
           <Image src={cover3} fluid />
           <Card.Body className='custom-body'>
             <p>SERVICES</p>
           </Card.Body>
         </Link>
-      </div>
+      </Card>
 
-      <div className="col-md-4 custom-card">
+      <div className="col-md-4 my-2 mx-md-2 custom-card" data-aos="fade-left" data-aos-delay={200}>
         <Link to='/memos-page'>
-        <img src={covertime} />
-        <div className='custom-overlay'></div>
+          <img src={covertime} />
+          <div className='custom-overlay'></div>
           <Card.Body className='custom-body'>
             <p>MEMO</p>
           </Card.Body>
         </Link>
       </div>
 
-      <div className="col-md-4 custom-card">
+      <div className="col-md-4 my-2 mx-md-2 custom-card" data-aos="fade-left" data-aos-delay={500}>
         <Link to="/menu-page">
           <div className='custom-overlay'></div>
           <Image src={cover1} fluid />

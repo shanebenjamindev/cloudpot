@@ -1,7 +1,3 @@
-.card-list {
-  gap: 30px;
-}
-
 .custom-card {
   position: relative;
   padding: 0;
@@ -11,8 +7,9 @@
   position: absolute;
   box-shadow: black 0px 0px 100px 10px;
   bottom: 40px;
+  width: 100%;
   transition: all 0.25s ease;
-  font-size: 40px;
+  font-size: 20px;
   color: var(--primary-color);
   transform: translateX(-10px);
 }
