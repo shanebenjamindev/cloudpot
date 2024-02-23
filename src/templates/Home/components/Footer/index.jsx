@@ -23,10 +23,11 @@ export default function Footer() {
                 </div>
 
                 <div className="d-md-flex align-items-center">
-                    <p className="mx-2">Từ nhà sáng lập Ashima</p>
+                    <p className="mx-2">Từ nhà sáng lập Ashima <br />
+                        bản quyền trang web thuộc về Võ Phong Giang</p>
                     <img width={40} src="https://th.bing.com/th/id/OIP.5ay6N6ejA6Ll0pA_o4nd_wHaJK?rs=1&pid=ImgDetMain" />
                 </div>
-               
+
             </div>
         </footer>
     );
