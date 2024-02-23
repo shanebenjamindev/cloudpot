@@ -14,7 +14,6 @@ export default function Home() {
           <div className='col-md-7' style={{ position: "relative" }}>
             <iframe style={{ position: "absolute" }} width={"100%"} height={"100%"} src="https://www.youtube.com/embed/BuEV3uJrtKo?autoplay=1" title="[G-GENE] CEO ĐÀO THẾ VINH CHIA SẺ VỀ GIÁ TRỊ CỐT LÕI GOLDEN GATE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
-
         </div>
       </div>
       <div data-aos="fade-down" data-aos-delay={200}>
